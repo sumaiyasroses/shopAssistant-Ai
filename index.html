@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ShopAssist AI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="chat-wrapper">
+    <div class="chat-header">
+      <div class="avatar">🛒</div>
+      <div>
+        <div class="bot-name">ShopAssist AI</div>
+        <div class="status">Online</div>
+      </div>
+    </div>
+
+    <div class="chat-body" id="chat-body"></div>
+
+    <div class="quick-replies" id="quick-replies">
+      <button onclick="quickReply('Track my order')">📦 Track order</button>
+      <button onclick="quickReply('How do I return an item?')">↩ Returns</button>
+      <button onclick="quickReply('What payment methods do you accept?')">💳 Payments</button>
+      <button onclick="quickReply('Talk to a human agent')">👤 Human agent</button>
+    </div>
+
+    <div class="chat-input-area">
+      <input type="text" id="user-input" placeholder="Type your message…" onkeydown="if(event.key==='Enter') sendMessage()" />
+      <button onclick="sendMessage()">➤</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
