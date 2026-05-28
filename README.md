@@ -47,6 +47,6 @@ ShopAssist AI is a conversational support bot built for e-commerce customers. It
 
 ## 📸 Preview
 
-![ShopAssist AI](https://sumaiyasroses.github.io/shopAssistant-Ai/)
+https://sumaiyasroses.github.io/shopAssistant-Ai/
 
 ---
